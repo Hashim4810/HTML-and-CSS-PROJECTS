@@ -1,1 +1,1 @@
-# HTML-and-CSS-PROJECTS
+# This repository will store my HTML and CSS coding projects for this course.
