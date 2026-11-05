@@ -1,0 +1,35 @@
+/*import link for the Roboto fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{background-color:rgb(255, 255, 255);
+    overflow-x: hidden; /*hides the bottom left right scroll bar when elements strertch beyond the screen border*/
+
+}
+
+/*navbar*/
+
+Li {
+   display: inline-block;
+   padding: 5px
+}   
+
+a {
+    font-family: 'Roboto', sans-serif; /*font from google.com*/
+ font-size: 20px;
+font-weight: 700
+text-shadow: 1px .5px 4px rgba(40, 31,31,0.5);
+color: blueviolet;
+}
+
+.nav-bar{background-color: #216391;
+    padding-top: 10px;
+    padding-bottom:10px;
+     /*the following minus margins stretch the navbar background beyond the web browser screen edge*/
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: sticky; /*creates sticky elements that stays in the same spot in the line browser screen*/
+    top: 0;/*tells the browser to stick the element at top of the page based on user srcolling*/
+    
+
+}
